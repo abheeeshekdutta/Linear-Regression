@@ -2,6 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.datasets import make_regression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, root_mean_squared_error, r2_score
+import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
@@ -20,3 +21,14 @@ if __name__ == "__main__":
     print(f"Coefficients: {model.coef_}")
     print(f"Intercept: {model.intercept_}")
     print(f"Features: {model.n_features_in_}")
+
+    # Residuals
+    residuals = y_test - y_pred
+
+    # Residuals vs Fitted
+    plt.scatter(y_pred, residuals)
+    plt.axhline(0, color="red", linestyle="--")
+    plt.xlabel("Fitted Values")
+    plt.ylabel("Residuals")
+    plt.title("Residuals vs Fitted (scikit-learn)")
+    plt.show()

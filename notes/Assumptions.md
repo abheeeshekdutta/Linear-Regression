@@ -1,8 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Can you explain the assumptions of linear regression please?
-
-Great question! Linear regression makes some key assumptions about the data. These are like “ground rules” that help ensure its results and predictions are trustworthy. Here’s a simple, layman’s explanation for each:
+Linear regression makes some key assumptions about the data. These are like “ground rules” that help ensure its results and predictions are trustworthy. Here’s a simple, layman’s explanation for each:
 
 ### 1. **Linearity**
 
@@ -43,8 +39,6 @@ Great question! Linear regression makes some key assumptions about the data. The
 - The relationship should be roughly straight,
 - Errors should have equal spread everywhere, form a bell curve, and be unrelated to each other,
 - Features should all provide new information—not be almost copies.
-
-Let me know if you want a deep dive into any of these, or practical checks/visualizations for them!
 
 <div style="text-align: center">⁂</div>
 

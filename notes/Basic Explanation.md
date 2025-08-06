@@ -1,7 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Don't show me code just yet, explain the basics in more detail and in a more layman language first.
-
 Let’s break linear regression down using everyday language and analogies:
 
 ### What Is Linear Regression?

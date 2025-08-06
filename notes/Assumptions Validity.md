@@ -1,7 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Can I validate these assumptions pre-modelling? How would I know if linear regression is the correct method for machine learning given the dataset?
-
 You generally **cannot fully validate all the assumptions of linear regression before fitting a model**, because some assumptions (like those about the errors/residuals) can only be checked after you compute the model predictions. However, you can still do a few useful pre-modelling checks, and after fitting, you should always validate the assumptions carefully to judge if linear regression is appropriate for your dataset.
 
 ## Pre-modelling Checks
@@ -44,8 +40,6 @@ You assess these assumptions after fitting (i.e. after calculating predictions a
 
 **Summary:**
 Before modeling, you can get a sense of suitability by plotting data and inspecting features for correlation. However, the critical checks must be made after fitting the model—mainly by evaluating the residuals against the regression assumptions. If the model fails on key diagnostics, then linear regression probably isn’t the right tool, and you should consider alternatives or transform your variables for a better fit.[^1][^2]
-
-Let me know if you want Python examples or visualizations illustrating any of these diagnostics!
 
 <div style="text-align: center">⁂</div>
 
